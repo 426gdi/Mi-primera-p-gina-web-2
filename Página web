@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salud Mental - Un Tema Importante</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 850px;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            font-size: 22px;
+            font-weight: bold;
+            border-radius: 10px 10px 0 0;
+        }
+        h1 {
+            text-align: center;
+            color: #000;
+            font-size: 26px;
+        }
+        h2 {
+            color: #000;
+            font-size: 22px;
+        }
+        h3 {
+            color: #000;
+            font-size: 20px;
+        }
+        p {
+            color: #444;
+            line-height: 1.6;
+            font-size: 16px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .img-izquierda {
+            float: left;
+            margin-right: 15px;
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+        }
+        .img-derecha {
+            float: right;
+            margin-left: 15px;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .img-centro {
+            display: block;
+            margin: 15px auto;
+            width: 250px;
+            border-radius: 5px;
+        }
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        footer {
+            text-align: center;
+            font-size: 14px;
+            color: #777;
+            margin-top: 20px;
+            padding: 10px;
+            border-top: 1px solid #ddd;
+        }
+        /* Estilos para animaciones */
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Estilo para el botón de regresar arriba */
+        .scroll-top-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 50%;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            display: none;
+        }
+
+        .scroll-top-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            Salud Mental - Un Tema Importante
+        </header>
+
+        <h1 class="fade-in">Salud Mental: Lo que todos debemos saber</h1>
+        <p class="fade-in">La salud mental es un aspecto fundamental en nuestras vidas. No se trata solo de evitar trastornos, sino de encontrar equilibrio, bienestar y felicidad en nuestro día a día.</p>
+
+        <div class="section clearfix fade-in">
+            <h2>¿Qué es la Salud Mental?</h2>
+            <img class="img-izquierda" src="https://via.placeholder.com/150" alt="Salud Mental">
+            <p>La salud mental incluye nuestro bienestar emocional, psicológico y social. Afecta cómo pensamos, sentimos y actuamos en la vida diaria.</p>
+        </div>
+
+        <div class="section clearfix fade-in">
+            <h2>¿Por qué es importante?</h2>
+            <img class="img-derecha" src="https://via.placeholder.com/150" alt="Importancia de la Salud Mental">
+            <p>Mantener una buena salud mental nos ayuda a:</p>
+            <ul>
+                <li>Manejar el estrés de la vida.</li>
+                <li>Relacionarnos mejor con los demás.</li>
+                <li>Sentirnos bien con nosotros mismos.</li>
+                <li>Ser más productivos en el trabajo o estudios.</li>
+            </ul>
+        </div>
+
+        <div class="section clearfix fade-in">
+            <h2>Señales de Problemas en la Salud Mental</h2>
+            <img class="img-izquierda" src="https://via.placeholder.com/150" alt="Signos de Salud Mental">
+            <p>Algunos síntomas que pueden indicar problemas incluyen:</p>
+            <ul>
+                <li>Ansiedad constante o estrés excesivo.</li>
+                <li>Dificultad para dormir o dormir demasiado.</li>
+                <li>Desinterés en cosas que antes disfrutabas.</li>
+                <li>Problemas para concentrarte.</li>
+            </ul>
+        </div>
+
+        <div class="section clearfix fade-in">
+            <h2>Consejos para Mejorar tu Salud Mental</h2>
+            <img class="img-derecha" src="https://via.placeholder.com/150" alt="Mejorar Salud Mental">
+            <p>Aquí algunos consejos simples pero efectivos:</p>
+            <ul>
+                <li><b>Haz ejercicio:</b> 30 minutos al día pueden mejorar tu estado de ánimo.</li>
+                <li><b>Habla con alguien:</b> No guardes todo para ti, compartir ayuda.</li>
+                <li><b>Descansa bien:</b> Un buen sueño es clave para el bienestar mental.</li>
+                <li><b>Encuentra un hobby:</b> Hacer algo que disfrutes te hará sentir mejor.</li>
+            </ul>
+        </div>
+
+        <div class="section fade-in">
+            <h3>Recuerda</h3>
+            <p>Cuidar tu salud mental es tan importante como cuidar tu salud física. No dudes en pedir ayuda si lo necesitas, y siempre busca tiempo para hacer cosas que te hagan feliz.</p>
+            <img class="img-centro" src="https://via.placeholder.com/250" alt="Bienestar">
+        </div>
+
+        <footer>
+            Página creada por alguien con conocimientos, pero sobre todo con interés por ayudar. 💚
+        </footer>
+    </div>
+
+    <!-- Botón para regresar arriba -->
+    <button class="scroll-top-btn" onclick="scrollToTop()">↑</button>
+
+    <script>
+        // Mostrar el botón de regresar arriba cuando se hace scroll
+        window.onscroll = function() {
+            let scrollTopBtn = document.querySelector('.scroll-top-btn');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                scrollTopBtn.style.display = "block";
+            } else {
+                scrollTopBtn.style.display = "none";
+            }
+        };
+
+        // Función para regresar arriba de la página
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
